@@ -17,7 +17,7 @@ AWSACCOUNTNO: Provide your aws account ID
 AWSSecurityHubARN: arn:aws:securityhub:<region>:<aws acc no>:product/<aws acc no>/default
 
 
-3.	Copy ScanResultTopicArn from scanner cloudformation stack output. This is the same ARN that we have used in previous step for Quarantine and promote object.
+3.	Copy ScanResultTopicArn from storage cloudformation stack output. This is the same ARN that we have used in previous step for Quarantine and promote object.
 
  
 4.	Enter ScanResultTopicARN to serverless application parameter and proceed to Deploy
